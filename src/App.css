@@ -1,11 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.userinput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn{
+  padding: 5px;
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
